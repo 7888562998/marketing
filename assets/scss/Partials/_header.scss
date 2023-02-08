@@ -12,8 +12,7 @@
   }
 
   &__logo {
-    width: 267px;
-    height: 43px;
+    max-width: 267px;
 
     img {
       max-width: 100%;
@@ -21,6 +20,7 @@
   }
 
   &__btn {
+  
     button {
       font-weight: 400;
       font-family: "Arimo";

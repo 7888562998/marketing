@@ -1,0 +1,59 @@
+.LH {
+  background-image: url("/assets/img/LH.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  &__title {
+    padding-top: 62px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Montserrat";
+    max-width: 774px;
+
+    h2 {
+      text-align: center;
+      font-weight: 600;
+      font-size: $fs-xl;
+      line-height: 46px;
+      color: $tertiary-color;
+    }
+  }
+
+  &__des {
+    font-family: "Cabin";
+    max-width: 681px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 0px;
+
+    p {
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 30px;
+      text-align: center;
+      color: $tertiary-color;
+    }
+  }
+
+  &__btn {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 174px;
+    padding-bottom: 78px;
+  
+    button {
+      border: 1px solid $tertiary-color;
+      background: transparent;
+      color: $tertiary-color;
+      font-family: "Arimo";
+      font-weight: 400;
+      font-size: $fs-sm;
+      line-height: 18px;
+     
+      &:hover {
+        border: 1px solid $primary-color;
+      }
+    }
+  }
+}

@@ -1,5 +1,5 @@
 .CTS {
-  padding-bottom: 45px;
+  padding-bottom: 90px;
 
   &__title {
     font-family: "Montserrat";
@@ -35,15 +35,15 @@
     box-shadow: 0px 0px 20px rgba(87, 87, 87, 0.25);
     border-radius: 5px;
     max-width: 367px;
-    height: 346px;
 
     &__img {
       position: absolute;
       top: 3402px;
-      width: 54.95px;
-      height: 55px;
+      max-width: 54.95px;
+      height: 100%;
+     
       img {
-        width: 54.95px;
+        max-width: 54.95px;
         height: 55px;
       }
     }
@@ -71,7 +71,6 @@
       padding-top: 37px;
 
       hr {
-        // border: 1px solid #8f8f8f;
         color: #8f8f8f;
       }
     }

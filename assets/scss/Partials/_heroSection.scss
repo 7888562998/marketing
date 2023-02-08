@@ -6,8 +6,8 @@
   background-color: $primary-color;
 
   &__title {
-    width: 538px;
-    
+    max-width: 538px;
+
     h1 {
       font-size: $fs-xxl;
       line-height: 65px;
@@ -18,9 +18,9 @@
   }
 
   &__des {
-    width: 581px;
+    max-width: 581px;
     margin: 30px 0;
-    
+
     p {
       font-size: $fs-md;
       line-height: 28px;
@@ -31,7 +31,7 @@
   }
 
   &__btn {
-    
+   
     button {
       font-family: "Arimo";
       font-weight: 400;

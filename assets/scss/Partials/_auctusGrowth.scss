@@ -8,13 +8,12 @@
   }
 
   &__grid {
-
     &__img {
       text-align: center;
 
       img {
-        width: 476.73px;
-        height: 426px;
+        max-width: 476.73px;
+        height: 100%;
         border-radius: 80px 0px 0px 0px;
       }
     }
@@ -34,7 +33,7 @@
       font-family: "Cabin";
       font-weight: 400;
       padding: 30px 0px;
-      width: 477.73px;
+      max-width: 477.73px;
       color: $des-color;
 
       p {
@@ -44,7 +43,7 @@
     }
 
     &__btn {
-
+     
       button {
         font-family: "Arimo";
         font-weight: 400;

@@ -23,7 +23,7 @@
   &__des {
     font-family: "Cabin";
     font-weight: 400;
-    width: 508px;
+    max-width: 508px;
     padding-bottom: 65px;
     color: $tertiary-color;
    
@@ -43,14 +43,15 @@
   &__box {
     text-align: center;
     padding: 57px 0px;
-    width: 269.96px;
+    max-width: 269.96px;
     height: 183px;
     background: $tertiary-color;
     
     &__logo {
+      
       img {
-        width: 190.97px;
-        height: 69px;
+        max-width: 190.97px;
+        height: 100%;
       }
     }
   }

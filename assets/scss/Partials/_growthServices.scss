@@ -1,8 +1,7 @@
 .GS {
   padding-top: 90px;
-  
+
   &__title {
-   
     h2 {
       font-size: $fs-xl;
       font-family: "Montserrat";
@@ -13,9 +12,9 @@
 
   &__des {
     padding: 30px 0;
-   
+    max-width: 780px;
+
     p {
-      width: 780px;
       font-family: "Cabin";
       font-weight: 400;
       font-size: $fs-md;
@@ -36,8 +35,7 @@
     text-align: center;
     transition: 0.3s;
     padding: 38px 0px;
-    width: 367px;
-    height: 293px;
+    max-width: 367px;
     border: 1px solid $primary-color;
     border-radius: 15px;
 
@@ -51,13 +49,13 @@
     }
 
     &__des {
-      width: 126px;
+      max-width: 126px;
       margin-left: auto;
       margin-right: auto;
       font-family: "Cabin";
       font-weight: 400;
       color: $des-color;
-    
+
       p {
         font-size: $fs-sm;
         line-height: 26px;
@@ -65,13 +63,13 @@
     }
 
     &__des1 {
-      width: 212px;
+      max-width: 212px;
       margin-left: auto;
       margin-right: auto;
       color: $des-color;
       font-family: "Cabin";
       font-weight: 400;
-     
+
       p {
         font-size: $fs-sm;
         line-height: 26px;

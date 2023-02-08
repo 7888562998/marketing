@@ -1,0 +1,13 @@
+{
+  "name": "auctus-marketing",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "sass --watch assets/scss/style.scss ./assets/css/style.css --style compressed"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.58.0"
+  }
+}

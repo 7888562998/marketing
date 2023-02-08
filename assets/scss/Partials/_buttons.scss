@@ -1,0 +1,37 @@
+// navbar btn
+.btn {
+  width: 174px;
+  height: 50px;
+  background-color: $tertiary-color;
+  border: 1px solid $primary-color;
+  color: $primary-color;
+  line-height: 18px;
+
+  &--filled {
+    &:hover {
+      cursor: pointer;
+      background-color: $primary-color;
+      color: $tertiary-color;
+      transition: 0.3s;
+    }
+  }
+}
+
+// heroSection button
+
+.HeroBtn {
+  width: 174px;
+  height: 54px;
+  color: $tertiary-color;
+  background-color: $primary-color;
+  border: 1px solid $tertiary-color;
+
+  &--filled {
+    &:hover {
+      cursor: pointer;
+      background-color: $tertiary-color;
+      color: $secondary-color;
+      transition: 0.3s;
+    }
+  }
+}

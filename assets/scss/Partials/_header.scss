@@ -1,0 +1,30 @@
+.nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 19px 0px;
+
+  &__container {
+    gap: 80px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 267px 1fr 174px;
+  }
+
+  &__logo {
+    width: 267px;
+    height: 43px;
+
+    img {
+      max-width: 100%;
+    }
+  }
+
+  &__btn {
+    button {
+      font-weight: 400;
+      font-family: "Arimo";
+      font-size: 16px;
+    }
+  }
+}

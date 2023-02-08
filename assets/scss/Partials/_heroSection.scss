@@ -1,0 +1,41 @@
+.HS {
+  height: 627px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: $primary-color;
+
+  &__title {
+    width: 538px;
+    
+    h1 {
+      font-size: $fs-xxl;
+      line-height: 65px;
+      color: $tertiary-color;
+      font-weight: 800;
+      font-family: "Montserrat";
+    }
+  }
+
+  &__des {
+    width: 581px;
+    margin: 30px 0;
+    
+    p {
+      font-size: $fs-md;
+      line-height: 28px;
+      color: $tertiary-color;
+      font-weight: 500;
+      font-family: "Cabin";
+    }
+  }
+
+  &__btn {
+    
+    button {
+      font-family: "Arimo";
+      font-weight: 400;
+      font-size: 16px;
+    }
+  }
+}

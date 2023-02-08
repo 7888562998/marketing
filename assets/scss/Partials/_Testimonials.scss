@@ -1,0 +1,16 @@
+.CTS {
+  
+  &__title {
+    font-family: "Montserrat";
+    font-weight: 700;
+
+    h2 {
+      font-size: $fs-xl;
+      line-height: 46px;
+    }
+  }
+
+  &__des {
+    max-width: 504px;
+  }
+}

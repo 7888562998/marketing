@@ -1,0 +1,56 @@
+.AG {
+  padding: 90px 0px 90px;
+
+  &__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 185.55px;
+  }
+
+  &__grid {
+
+    &__img {
+      text-align: center;
+
+      img {
+        width: 476.73px;
+        height: 426px;
+        border-radius: 80px 0px 0px 0px;
+      }
+    }
+
+    &__title {
+      font-family: "Montserrat";
+      font-weight: 700;
+      padding-top: 93px;
+
+      h2 {
+        font-size: $fs-xl;
+        line-height: 25px;
+      }
+    }
+
+    &__des {
+      font-family: "Cabin";
+      font-weight: 400;
+      padding: 30px 0px;
+      width: 477.73px;
+      color: $des-color;
+
+      p {
+        font-size: $fs-md;
+        line-height: 28px;
+      }
+    }
+
+    &__btn {
+
+      button {
+        font-family: "Arimo";
+        font-weight: 400;
+        font-size: $fs-sm;
+        line-height: 18px;
+      }
+    }
+  }
+}

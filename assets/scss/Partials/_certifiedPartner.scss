@@ -1,0 +1,53 @@
+.CP {
+  padding: 90px 0px 45px;
+  &__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 80px;
+  }
+
+  &__box1 {
+    &__title {
+      font-family: "Montserrat";
+      padding: 32px 0px 30px;
+
+      h3 {
+        font-weight: 700;
+        font-size: $fs-xl;
+        line-height: 46px;
+        color: $secondary-color;
+      }
+    }
+
+    &__des {
+      font-family: "Cabin";
+      max-width: 529px;
+
+      p {
+        font-weight: 400;
+        font-size: $fs-md;
+        line-height: 28px;
+        color: $des-color;
+      }
+    }
+  }
+
+  &__box2 {
+    display: flex;
+    justify-content: space-between;
+
+    &__logo {
+      background: $tertiary-color;
+      box-shadow: 0px 0px 15px rgba(150, 148, 148, 0.25);
+      border-radius: 10px;
+      padding: 82.5px 31.5px;
+      max-width: 248px;
+      height: 100%;
+
+      &__img {
+        width: 185px;
+        height: 100%;
+      }
+    }
+  }
+}

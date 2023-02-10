@@ -1,5 +1,5 @@
 .HCS {
-  background-color: #f38120;
+  background-color: $primary-color;
 
   &__container {
     padding: 60px 0px;
@@ -20,26 +20,26 @@
   }
 }
 
-.splide__arrow--next {
-  right: -5em !important;
-}
-
-.splide__arrow--prev {
-  left: -5em !important;
-}
-
-.splide__arrow {
-  width: 49px !important;
-  height: 49px !important;
-  background-color: $tertiary-color !important;
-  opacity: 1 !important;
-}
-
 .splide {
   background-color: transparent;
-}
 
-.splide__slide img {
-  vertical-align: bottom;
-  width: 100%;
+  &__slide img {
+    vertical-align: bottom;
+    width: 100%;
+  }
+
+  &__arrow {
+    width: 49px !important;
+    height: 49px !important;
+    background-color: $tertiary-color !important;
+    opacity: 1 !important;
+    
+    &--next {
+      right: -5em !important;
+    }
+
+    &--prev {
+      left: -5em !important;
+    }
+  }
 }

@@ -29,6 +29,7 @@
 
     &__btn {
       padding-right: 28px;
+     
       button {
         padding: 18px 46px;
         font-family: "Arimo";
@@ -49,7 +50,6 @@
   }
 
   &__box {
-    // border: 1px solid black;
     color: $tertiary-color;
 
     &__title {

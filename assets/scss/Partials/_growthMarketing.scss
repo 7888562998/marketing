@@ -1,0 +1,37 @@
+.GM {
+  background-image: url("/assets/img/growth-marketing.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  &__title {
+    padding-top: 116px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Montserrat";
+    max-width: 774px;
+
+    h1 {
+      text-align: center;
+      font-weight: 800;
+      font-size: $fs-xxl;
+      line-height: 67px;
+      color: $tertiary-color;
+    }
+  }
+
+  &__des {
+    font-family: "Cabin";
+    margin-left: auto;
+    margin-right: auto;
+    padding: 13px 0px 105px;
+
+    p {
+      font-weight: 400;
+      font-size: $fs-md;
+      line-height: 28px;
+      text-align: center;
+      color: $tertiary-color;
+    }
+  }
+}

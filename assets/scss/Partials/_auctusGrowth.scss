@@ -41,6 +41,16 @@
         line-height: 28px;
       }
     }
+
+    &__btn {
+      button {
+        padding: 16px 38px;
+        font-family: "Arimo";
+        font-weight: 400;
+        font-size: $fs-sm;
+        line-height: 18px;
+      }
+    }
   }
 }
 

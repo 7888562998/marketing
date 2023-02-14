@@ -80,6 +80,7 @@
     &:hover {
       cursor: pointer;
       border: none;
+      outline: none;
       border-bottom: 4px solid $primary-color;
       box-shadow: 0px 4px 10px #cecece;
       border-radius: 15px;

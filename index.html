@@ -24,7 +24,7 @@
         </a>
       </div>
       <div class="menu__container">
-        <ul class=menu>
+        <ul id="menu" class="menu">
           <li class="menu__item">
             <a class="menu__link" href="/">
               HOME
@@ -39,7 +39,14 @@
           <li class=" menu__item"><a class="menu__link" href="#">SERVICES</a></li>
           <li class="menu__item"><a class="menu__link" href="#">BLOG</a></li>
           <li class="menu__item"><a class="menu__link" href="#">PORTFOLIO</a></li>
+          <li id="contact" class="menu__item"><a class="menu__link" href="#">CONTACT US</a></li>
+
         </ul>
+      </div>
+      <div class="nav__hamburger" onclick="myFunction()">
+        <div class="nav__hamburger__line"></div>
+        <div class="nav__hamburger__line"></div>
+        <div class="nav__hamburger__line"></div>
       </div>
       <div class="nav__btn">
         <a href="#" class="btn--link"><button class="btn btn--filled">Contact Us</button></a>
@@ -213,7 +220,7 @@
           <p>We provide web design, digital ad campaign management and custom email marketing services for top real
             estate professionals.</p>
         </div>
-        <div class="AG__grid__btn">
+        <div class="RS">
           <a href="#" class="btn--link"><button class="btn btn--filled">Explore More</button></a>
         </div>
       </div>
@@ -551,18 +558,29 @@
             </p>
           </div>
           <div class="footer__box__logos">
-            <span class="footer__box__logo">
-              <img src="./assets/img/facebook-icon.png" alt="error">
-            </span>
-            <span class="footer__box__logo">
-              <img src="./assets/img/twitter-icon.png" alt="error">
-            </span>
-            <span class="footer__box__logo">
-              <img src="./assets/img/linkedin-icon.png" alt="">
-            </span>
-            <span class="footer__box__logo">
-              <img src="./assets/img/google-plus.png" alt="">
-            </span>
+            <a href="https://www.facebook.com/AuctusMarketing">
+              <span class="footer__box__logo">
+                <img src="./assets/img/facebook-icon.png" alt="error">
+              </span>
+            </a>
+
+            <a href="https://twitter.com/AuctusMarketing">
+              <span class="footer__box__logo">
+                <img src="./assets/img/twitter-icon.png" alt="error">
+              </span>
+            </a>
+
+            <a href="https://www.linkedin.com/in/christianhabermann">
+              <span class="footer__box__logo">
+                <img src="./assets/img/linkedin-icon.png" alt="">
+              </span>
+            </a>
+
+            <a href="https://www.google.com/">
+              <span class="footer__box__logo">
+                <img src="./assets/img/google-plus.png" alt="">
+              </span>
+            </a>
           </div>
         </div>
 
@@ -637,6 +655,13 @@
   </script>
 
   <script>
+
+    function myFunction() {
+      var element = document.getElementById("menu");
+      var contact = document.getElementById("contact");
+      element.classList.toggle("show");
+      contact.classList.toggle("show");
+    }
     var splide = new Splide('.splide', {
       type: 'loop',
       margin: 0,

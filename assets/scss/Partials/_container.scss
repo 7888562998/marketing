@@ -14,7 +14,15 @@
     max-width: 720px;
   }
 
+  @media (min-width: $screen-large) {
+    max-width: 960px;
+  }
+
   @media (min-width: $screen-xlarge) {
     max-width: 1170px;
+  }
+
+  @media (min-width: $screen-XX-Large) {
+    max-width: 1320px;
   }
 }

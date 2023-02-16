@@ -1,6 +1,6 @@
 .CP {
   padding: 90px 0px 185px;
- 
+
   &__container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -8,7 +8,6 @@
   }
 
   &__box1 {
-   
     &__title {
       font-family: "Montserrat";
       padding: 32px 0px 30px;
@@ -53,3 +52,17 @@
     }
   }
 }
+
+@media screen and (max-width: 768px) {
+  
+  .CP {
+    &__container {
+      grid-template-columns: repeat(1, 1fr);
+    }
+
+    &__box2 { 
+      justify-content: flex-start;
+    }
+  }
+}
+

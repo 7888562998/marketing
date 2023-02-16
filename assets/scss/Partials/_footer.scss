@@ -29,7 +29,7 @@
 
     &__btn {
       padding-right: 28px;
-     
+
       button {
         padding: 18px 46px;
         font-family: "Arimo";
@@ -138,10 +138,9 @@
   &__hr {
     hr {
       border: none;
-      border-top:1px solid #F3F3F3;
+      border-top: 1px solid #f3f3f3;
     }
   }
-  
 
   &__copy {
     display: flex;
@@ -155,6 +154,97 @@
         font-size: $fs-sm;
         line-height: 26px;
         font-weight: 400;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .footer {
+    &__main {
+      left: 138px;
+      top: 5596px;
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .footer {
+    &__main {
+      left: 24px;
+      top: 6537px;
+    }
+
+    &__boxes {
+      gap: 15px;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    &__main {
+      left: 24px;
+      top: 8398px;
+
+      &__title {
+        h3 {
+          font-size: $fs-lg;
+        }
+      }
+    }
+
+    &__boxes {
+      gap: 15px;
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .footer {
+    &__main {
+      left: 17px;
+      top: 9434px;
+      right: 17px;
+
+      &__title {
+        h3 {
+          font-size: $fs-lg;
+          line-height: 25px;
+        }
+      }
+    }
+
+    &__boxes {
+      gap: 15px;
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .footer {
+    &__main {
+      top: 9858px;
+    }
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .footer {
+    &__main {
+      top: 9635px;
+      left: 31px;
+      right: 31px;
+
+      &__title {
+        font-family: "Montserrat";
+  
+        h3 {
+          font-size: 15px;
+          line-height: 25px;
+        }
       }
     }
   }

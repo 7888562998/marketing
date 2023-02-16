@@ -1,5 +1,4 @@
 .CTS {
- 
   &__cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -84,12 +83,16 @@
   }
 }
 
-@media screen and (max-width:  768px) {
-
-  .CTS { 
-    &__cards { 
+@media screen and (max-width: 768px) {
+  .CTS {
+    
+    &__cards {
       grid-template-columns: repeat(1, 1fr);
       place-items: center;
+    }
+
+    &__card {
+      margin-top: 20px;
     }
   }
 }

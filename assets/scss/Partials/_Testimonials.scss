@@ -23,15 +23,17 @@
       color: $des-color;
     }
   }
+}
 
-  // &__client__img {
-  //   position: absolute;
-  //   top: 3410px;
-  //   max-width: 54.95px;
+@media screen and (max-width: 768px) {
+  .CTS {
+   
+    &__title {
+      text-align: center;
+    }
 
-  //   img {
-  //     max-width: 54.95px;
-  //     height: 100%;
-  //   }
-  // }
+    &__des {
+      text-align: center;
+    }
+  }
 }

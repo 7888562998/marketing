@@ -40,3 +40,14 @@
     }
   }
 }
+
+@media screen and (max-width: 576px) {
+  
+  .HS {
+  &__title {
+    h1 {
+      font-size: $fs-l;
+    }
+  }
+  }
+}

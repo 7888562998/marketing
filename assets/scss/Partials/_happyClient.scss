@@ -33,7 +33,7 @@
     height: 49px !important;
     background-color: $tertiary-color !important;
     opacity: 1 !important;
-    
+
     &--next {
       right: -5em !important;
     }
@@ -43,3 +43,38 @@
     }
   }
 }
+
+@media screen and (max-width: 1024px) {
+  .splide {
+    &__arrow {
+      width: 30px !important;
+      height: 30px !important;
+
+      &--next {
+        right: -2em !important;
+      }
+
+      &--prev {
+        left: -2em !important;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .splide {
+    &__arrow {
+      width: 27px !important;
+      height: 27px !important;
+
+      &--next {
+        right: -1.5em !important;
+      }
+
+      &--prev {
+        left: -1.5em !important;
+      }
+    }
+  }
+}
+

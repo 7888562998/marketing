@@ -5,7 +5,7 @@
     padding-top: 109px;
     font-family: "Montserrat";
     font-weight: 700;
-   
+
     h2 {
       font-size: $fs-xl;
       line-height: 46px;
@@ -26,7 +26,7 @@
     max-width: 508px;
     padding-bottom: 65px;
     color: $tertiary-color;
-   
+
     p {
       font-size: $fs-md;
       line-height: 28px;
@@ -46,13 +46,30 @@
     max-width: 269.96px;
     height: 183px;
     background: $tertiary-color;
-    
+
     &__logo {
-      
       img {
         max-width: 190.97px;
         height: 100%;
       }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  
+  .WB {
+    &__boxes {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+}
+
+@media screen and (max-width: 576px) {
+  
+  .WB {
+    &__boxes {
+      grid-template-columns: repeat(1, 1fr);
     }
   }
 }

@@ -223,14 +223,6 @@
   }
 }
 
-@media screen and (max-width: 375px) {
-  .footer {
-    &__main {
-      top: 9858px;
-    }
-  }
-}
-
 @media screen and (max-width: 414px) {
   .footer {
     &__main {
@@ -246,6 +238,14 @@
           line-height: 25px;
         }
       }
+    }
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .footer {
+    &__main {
+      top: 10160px;
     }
   }
 }

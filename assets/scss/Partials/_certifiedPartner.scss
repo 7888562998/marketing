@@ -54,15 +54,23 @@
 }
 
 @media screen and (max-width: 768px) {
-  
   .CP {
     &__container {
       grid-template-columns: repeat(1, 1fr);
     }
 
-    &__box2 { 
+    &__box2 {
       justify-content: flex-start;
     }
   }
 }
 
+@media screen and (max-width: 375px) {
+  
+  .CP {
+
+    &__box2 {
+      flex-direction: column;
+    }
+  }
+}
